@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Statements
+{
+	private static Scanner sc;
+	public static void main(String[] args) 
+	{
+		int number=5, i;
+		sc = new Scanner(System.in);	
+		
+		for(i = 1; i <= number; i++)
+		{
+			System.out.println(i); 
+		}	
+	}
+}
